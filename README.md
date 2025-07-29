@@ -1,8 +1,16 @@
-# Heart-Disease_Dataset
+# Heart Disease Dataset
 Repositorio destinado ao teste de ML no dataset Heart Disease Dataset
 Este conjunto de dados data de 1988 e consiste em quatro bancos de dados: Cleveland, Hungria, Suíça e Long Beach V. Ele contém 76 atributos, incluindo o atributo previsto, mas todos os experimentos publicados referem-se ao uso de um subconjunto de 14 deles. O campo "alvo" refere-se à presença de doença cardíaca no paciente. É um valor inteiro: 0 = sem doença e 1 = doença.
----
-## **Heart Disease**
+
+Atual modelo com score: 0.8207, ultilizando KNeighbors.
+| #  | Model                     | Acurácia Treino (%) | Acurácia Teste (%) |
+|----|---------------------------|---------------------|--------------------|
+| 1  | KNeighbors                | 90.28               | 82.07              |
+| 2  | Logistic Regression       | 91.67               | 81.38              |
+| 3  | Random Forest Classifier  | 100.00              | 79.31              |
+| 4  | Ada Boost                 | 100.00              | 76.55              |
+| 5  | Decision Tree             | 100.00              | 67.59              |
+# Conhecendo banco de dados
 * **age**: Idade da pessoa, em anos
 * **sex**: Sexo da pessoa (1 = masculino, 0 = feminino)
 * **cp**: Tipo de dor no peito experimentada (Valor 1: angina típica, Valor 2: angina atípica, Valor 3: dor não anginosa, Valor 4: assintomático)
